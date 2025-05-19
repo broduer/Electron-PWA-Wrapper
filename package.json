@@ -1,17 +1,17 @@
 {
-  "name": "LeasingRechner",
+  "name": "Avernic",
   "version": "1.0.0",
-  "description": "Electron Desktop App Wrapper for PWAs / leasingrechnen.at",
+  "description": "Electron Desktop App for Avernic.com",
   "homepage": "https://www.leasingrechnen.at",
   "main": "index.js",
   "author": {
     "name": "xTools",
     "email": "apps@xtools.at"
   },
-  "license": "GPLv3",
+  "license": "NOUSAGE",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xtools-at/Electron-PWA-Wrapper.git"
+    "url": "https://github.com/broduer/Electron-PWA-Wrapper.git"
   },
   "scripts": {
     "electron": "electron .",
@@ -32,11 +32,11 @@
     "node_modules"
   ],
   "build": {
-    "appId": "at.xtools.leasingrechner.desktop",
-    "productName": "Leasing Rechner",
-    "copyright": "Copyright © 2018 leasingrechnen.at",
+    "appId": "com.avernic.desktop",
+    "productName": "Avernic",
+    "copyright": "Copyright © 2025 avernic.com",
     "mac": {
-      "category": "public.app-category.finance",
+      "category": "public.app-category.games",
       "target": [
         {
           "target": "dmg"
@@ -59,18 +59,18 @@
         }
       ],
       "icon": "build/icon.ico",
-      "legalTrademarks": "Copyright © 2018 leasingrechnen.at",
-      "publisherName": "xTools"
+      "legalTrademarks": "Copyright © 2025 avernic.com",
+      "publisherName": "broduer"
     },
     "appx": {
-      "applicationId": "xTools.LeasingRechner",
+      "applicationId": "com.avernic.desktop",
       "backgroundColor": "#F44336",
-      "displayName": "Leasing Rechner",
-      "identityName": "22127xTools.LeasingRechner",
+      "displayName": "Avernic",
+      "identityName": "22127avernic.com",
       "publisher": "CN=84B32E2F-0B83-4D35-8A43-109EF795E8E1",
-      "publisherDisplayName": "xTools",
+      "publisherDisplayName": "broduer",
       "languages": [
-        "de"
+        "en"
       ]
     },
     "portable": {},
@@ -80,9 +80,9 @@
           "target": "AppImage"
         }
       ],
-      "maintainer": "xTools",
-      "vendor": "leasingrechnen.at",
-      "synopsis": "Leasingrechner App",
+      "maintainer": "broduer",
+      "vendor": "avernic.com",
+      "synopsis": "Avernic App",
       "category": "Office"
     },
     "appImage": {

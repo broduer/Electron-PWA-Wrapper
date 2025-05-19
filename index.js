@@ -102,9 +102,9 @@ ipcMain.on('app:refresh', (event) => {
 if (Notification.isSupported()) {
   ipcMain.on('webview:notification', (event) => {
     const notification = new Notification({
-      title: 'Anfrage erfolgreich versandt',
+      title: 'Request successfully sent',
       // subtitle: 'Subtitle', // macOS only
-      body: 'Sie erhalten Ihr Angebot innerhalb von höchstens 2 Werktagen, aber wir setzen alles daran, schneller zu sein!',
+      body: 'You will receive your offer within a maximum of 2 business days, but we will do everything we can to be quicker!',
     });
     notification.show();
   });

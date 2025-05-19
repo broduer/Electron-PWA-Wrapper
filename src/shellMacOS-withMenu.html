@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Leasingrechner</title>
+        <title>Avernic.com</title>
         <link href="res/css/photon.min.css" rel="stylesheet" />
         <style>
             #app_container {
@@ -135,7 +135,7 @@
                   </div>
                   <div id="app_container" class="pane">
                       <!-- main app -->
-                      <webview id="app" src="https://www.leasingrechnen.at" useragent="Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36 MacOSXApp" allowpopups autosize minwidth="360" minheight="360"></webview>
+                      <webview id="app" src="https://avernic.com" useragent="Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36 MacOSXApp" allowpopups autosize minwidth="360" minheight="360"></webview>
                   </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@
             <!-- footer -->
             <footer class="toolbar toolbar-footer">
               <div class="toolbar-actions">
-                <h1 class="title drag">&copy; leasingrechnen.at</h1>
+                <h1 class="title drag">&copy; avernic.com</h1>
                 <!--
                 <button class="btn btn-default">
                   Cancel
@@ -163,7 +163,7 @@
             const webview = document.querySelector('#app');
 
             const userAgent = 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36 MacOSXApp';
-            const baseUrl = 'https://www.leasingrechnen.at';
+            const baseUrl = 'https://avernic.com';
 
             const resetNavItems = function() {
                 const url = webview.getURL();
